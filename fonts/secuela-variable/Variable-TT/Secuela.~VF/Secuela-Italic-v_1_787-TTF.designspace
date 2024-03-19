@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+ <axes>
+  <axis minimum="300" maximum="800" tag="wght" default="300" name="weight">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="300" input="300"/>
+   <map output="400" input="400"/>
+   <map output="550" input="500"/>
+   <map output="700" input="700"/>
+   <map output="850" input="800"/>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Secuela" filename="masters/Secuela-LightItalic.ufo" name="LightItalic" stylename="LightItalic">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </source>
+  <source familyname="Secuela" filename="masters/Secuela-ExtraBoldItalic.ufo" name="ExtraBoldItalic" stylename="ExtraBoldItalic">
+   <location>
+    <dimension xvalue="850" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Secuela" filename="instances/Secuela-LightItalic.ufo" name="Light Italic" stylename="Light Italic">
+   <location>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Secuela" filename="instances/Secuela-Italic.ufo" name="Italic" stylename="Italic">
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Secuela" filename="instances/Secuela-MediumItalic.ufo" name="Medium Italic" stylename="Medium Italic">
+   <location>
+    <dimension xvalue="550" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Secuela" filename="instances/Secuela-BoldItalic.ufo" name="Bold Italic" stylename="Bold Italic">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Secuela" filename="instances/Secuela-ExtraBoldItalic.ufo" name="Extra Bold Italic" stylename="Extra Bold Italic">
+   <location>
+    <dimension xvalue="850" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
