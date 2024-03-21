@@ -1,12 +1,12 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 0.8rem;
-  /* max-height: 99vh; */
-  /* max-width: 99vw; */
 }
 
 img {
@@ -16,7 +16,6 @@ img {
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  /* grid-template-rows: 1fr 1fr; */
 }
 
 header {
@@ -57,4 +56,9 @@ main {
 .announcements,
 .trending {
   grid-column: 2 / 3;
+}
+
+.trendingContainer,
+.announceContainer {
+  border: 1px solid black;
 }
