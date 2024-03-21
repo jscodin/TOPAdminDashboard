@@ -13,6 +13,12 @@ img {
   width: 50px;
 }
 
+.searchbar img {
+  width: 30px;
+  float: left;
+  vertical-align: sub;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
