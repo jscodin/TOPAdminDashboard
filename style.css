@@ -15,8 +15,11 @@ img {
 
 .searchbar img {
   width: 30px;
-  float: left;
-  vertical-align: sub;
+  /* float: left; */
+}
+
+.userInfo img {
+  width: 30px;
 }
 
 .container {
@@ -31,6 +34,7 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
+  padding: 15px;
 }
 
 .searchbar {
@@ -47,6 +51,16 @@ input[type="text"] {
   width: 550px;
   background-color: #cbd5e1;
   align-items: center;
+}
+
+.userInfo {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.userInfo img,
+.userInfo p {
+  grid-row: 1;
 }
 
 button {
